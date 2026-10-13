@@ -1,0 +1,1 @@
+# codexastacio-satellite-manager-ai
