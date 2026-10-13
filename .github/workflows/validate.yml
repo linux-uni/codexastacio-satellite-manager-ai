@@ -1,0 +1,21 @@
+name: Validate Satellite Manager
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: codexastacio-satellite-manager
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-audit --no-fund
+      - run: npm run build
+        env:
+          DATABASE_URL: postgresql://placeholder:placeholder@localhost:5432/placeholder
+          SESSION_SECRET: CI_ONLY_DUMMY_SECRET_NOT_FOR_PRODUCTION_123456789
