@@ -1,0 +1,3 @@
+import postgres from 'postgres';import bcrypt from 'bcryptjs';
+const {DATABASE_URL,ADMIN_EMAIL,ADMIN_PASSWORD}=process.env;if(!DATABASE_URL||!ADMIN_EMAIL||!ADMIN_PASSWORD||ADMIN_PASSWORD.length<12)throw Error('Set DATABASE_URL, ADMIN_EMAIL, ADMIN_PASSWORD (12+ chars)');
+const sql=postgres(DATABASE_URL,{ssl:'require'});try{const hash=await bcrypt.hash(ADMIN_PASSWORD,12);await sql`INSERT INTO users(email,password_hash,role) VALUES(${ADMIN_EMAIL.toLowerCase()},${hash},'super_admin') ON CONFLICT(email) DO UPDATE SET password_hash=EXCLUDED.password_hash,role='super_admin'`;console.log('Super admin ready')}finally{await sql.end()}

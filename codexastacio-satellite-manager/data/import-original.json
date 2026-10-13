@@ -1,0 +1,551 @@
+[
+  {
+    "row": 1,
+    "client": "Dreams Romana",
+    "serial": "R1907053850",
+    "account": "U",
+    "location": "",
+    "responsible": "Junior",
+    "phone": "809 352-6540"
+  },
+  {
+    "row": 2,
+    "client": "Dreams Romana",
+    "serial": "R1907609943",
+    "account": "U",
+    "location": "",
+    "responsible": "Junior",
+    "phone": "809 352-6540"
+  },
+  {
+    "row": 3,
+    "client": "Dreams Romana",
+    "serial": "R0095080916",
+    "account": "R",
+    "location": "",
+    "responsible": "Junior",
+    "phone": "809 352-6540"
+  },
+  {
+    "row": 4,
+    "client": "Alltra",
+    "serial": "R0102760638",
+    "account": "U",
+    "location": "",
+    "responsible": "Angelo",
+    "phone": "809 984-7013"
+  },
+  {
+    "row": 5,
+    "client": "Alltra",
+    "serial": "R1907203668",
+    "account": "Q",
+    "location": "",
+    "responsible": "Angelo",
+    "phone": "809 984-7013"
+  },
+  {
+    "row": 6,
+    "client": "Alltra",
+    "serial": "R1888709771",
+    "account": "T",
+    "location": "",
+    "responsible": "Angelo",
+    "phone": "809 984-7013"
+  },
+  {
+    "row": 7,
+    "client": "Dreams Cap Cana",
+    "serial": "R1908246213",
+    "account": "S",
+    "location": "",
+    "responsible": "",
+    "phone": ""
+  },
+  {
+    "row": 8,
+    "client": "Dreams Cap Cana",
+    "serial": "R0095234968",
+    "account": "Q",
+    "location": "",
+    "responsible": "Dj Solito | Miguel",
+    "phone": "829 965-8771"
+  },
+  {
+    "row": 9,
+    "client": "Dreams Cap Cana",
+    "serial": "R0091562485",
+    "account": "Q",
+    "location": "",
+    "responsible": "Dj Solito | Miguel",
+    "phone": "829 965-8771"
+  },
+  {
+    "row": 10,
+    "client": "Dreams Cap Cana",
+    "serial": "R0094208877",
+    "account": "T",
+    "location": "",
+    "responsible": "Dj Solito | Miguel",
+    "phone": "829 965-8771"
+  },
+  {
+    "row": 11,
+    "client": "Royalton Punta Cana",
+    "serial": "R1904502434",
+    "account": "V",
+    "location": "",
+    "responsible": "",
+    "phone": ""
+  },
+  {
+    "row": 12,
+    "client": "Royalton Bavaro",
+    "serial": "R1895019391",
+    "account": "U",
+    "location": "",
+    "responsible": "Dj Ronald",
+    "phone": "809 637-3439"
+  },
+  {
+    "row": 13,
+    "client": "Royalton Bavaro",
+    "serial": "R0142501197",
+    "account": "U",
+    "location": "",
+    "responsible": "Dj Ronald",
+    "phone": "809 637-3439"
+  },
+  {
+    "row": 14,
+    "client": "Royalton Bavaro",
+    "serial": "R0101150960",
+    "account": "U",
+    "location": "",
+    "responsible": "Dj Ronald",
+    "phone": "809 637-3439"
+  },
+  {
+    "row": 15,
+    "client": "Royalton Punta Cana",
+    "serial": "R0091875621",
+    "account": "Q",
+    "location": "",
+    "responsible": "Dj La Makina",
+    "phone": "829 993-7488"
+  },
+  {
+    "row": 16,
+    "client": "Royalton Punta Cana",
+    "serial": "R1894610620",
+    "account": "Q",
+    "location": "",
+    "responsible": "Dj La Makina",
+    "phone": "829 993-7488"
+  },
+  {
+    "row": 17,
+    "client": "Royalton Chic",
+    "serial": "R1907183000",
+    "account": "Q",
+    "location": "",
+    "responsible": "Johamartin Lopez",
+    "phone": "829 421-4628"
+  },
+  {
+    "row": 18,
+    "client": "Royalton Chic",
+    "serial": "R0094346968",
+    "account": "V",
+    "location": "",
+    "responsible": "",
+    "phone": ""
+  },
+  {
+    "row": 19,
+    "client": "Royalton Chic",
+    "serial": "R1895048198",
+    "account": "R",
+    "location": "",
+    "responsible": "Johamartin Lopez",
+    "phone": "829 421-4628"
+  },
+  {
+    "row": 20,
+    "client": "Aqua",
+    "serial": "R0102261936",
+    "account": "V",
+    "location": "",
+    "responsible": "",
+    "phone": ""
+  },
+  {
+    "row": 21,
+    "client": "Aqua",
+    "serial": "R1908012357",
+    "account": "V",
+    "location": "",
+    "responsible": "",
+    "phone": ""
+  },
+  {
+    "row": 22,
+    "client": "Aqua",
+    "serial": "R0101846859",
+    "account": "V",
+    "location": "",
+    "responsible": "Johamartin Lopez",
+    "phone": "829 421-4628"
+  },
+  {
+    "row": 23,
+    "client": "Hyatt Cap Cana",
+    "serial": "R0085030442",
+    "account": "T",
+    "location": "",
+    "responsible": "Rafa",
+    "phone": ""
+  },
+  {
+    "row": 24,
+    "client": "Hyatt Cap Cana",
+    "serial": "R1907891626",
+    "account": "R",
+    "location": "SPORTBAR",
+    "responsible": "Rafa",
+    "phone": "809 445-2861"
+  },
+  {
+    "row": 25,
+    "client": "Hyatt Cap Cana",
+    "serial": "R0095459858",
+    "account": "R",
+    "location": "GERENTE",
+    "responsible": "Rafa",
+    "phone": "809 445-2861"
+  },
+  {
+    "row": 26,
+    "client": "Iberostar Dominicana",
+    "serial": "R1904457717",
+    "account": "T",
+    "location": "STAR ROCK CAFÉ",
+    "responsible": "DJ Before | Francisco",
+    "phone": "829 246-2459"
+  },
+  {
+    "row": 27,
+    "client": "Iberostar Dominicana",
+    "serial": "R0100685429",
+    "account": "T",
+    "location": "STAR ROCK CAFÉ",
+    "responsible": "DJ Before | Francisco",
+    "phone": "829 246-2459"
+  },
+  {
+    "row": 28,
+    "client": "Iberostar Bavaro",
+    "serial": "R1895206775",
+    "account": "R",
+    "location": "",
+    "responsible": "Dj Pequeño",
+    "phone": "809 776-2888"
+  },
+  {
+    "row": 29,
+    "client": "Iberostar Bavaro",
+    "serial": "R1908090933",
+    "account": "U",
+    "location": "",
+    "responsible": "Dj Pequeño",
+    "phone": "809 776-2888"
+  },
+  {
+    "row": 30,
+    "client": "Iberostar Punta Cana",
+    "serial": "R0102097726",
+    "account": "T",
+    "location": "TEATRO",
+    "responsible": "DJ Before | Francisco",
+    "phone": "829 246-2459"
+  },
+  {
+    "row": 31,
+    "client": "Iberostar Punta Cana",
+    "serial": "R1901585144",
+    "account": "V",
+    "location": "PRESTIGE",
+    "responsible": "DJ Before | Francisco",
+    "phone": "829 246-2459"
+  },
+  {
+    "row": 32,
+    "client": "Iberostar Puerto Plata",
+    "serial": "R0100983445",
+    "account": "T",
+    "location": "",
+    "responsible": "Mario Polanco",
+    "phone": "829 810-1622"
+  },
+  {
+    "row": 33,
+    "client": "Iberostar Puerto Plata",
+    "serial": "R1901631410",
+    "account": "T",
+    "location": "",
+    "responsible": "Mario Polanco",
+    "phone": "829 810-1622"
+  },
+  {
+    "row": 34,
+    "client": "Iberostar Puerto Plata",
+    "serial": "R0095292194",
+    "account": "R",
+    "location": "",
+    "responsible": "Mario Polanco",
+    "phone": "829 810-1622"
+  },
+  {
+    "row": 35,
+    "client": "Pierre",
+    "serial": "R1907822492",
+    "account": "R",
+    "location": "",
+    "responsible": "",
+    "phone": ""
+  },
+  {
+    "row": 36,
+    "client": "Jay Overton",
+    "serial": "R0102008138",
+    "account": "U",
+    "location": "",
+    "responsible": "Pierre",
+    "phone": "1 514 865-1611"
+  },
+  {
+    "row": 37,
+    "client": "Viva Dominicus",
+    "serial": "R0102355806",
+    "account": "S",
+    "location": "",
+    "responsible": "",
+    "phone": ""
+  },
+  {
+    "row": 38,
+    "client": "Viva Dominicus",
+    "serial": "R1895083873",
+    "account": "S",
+    "location": "",
+    "responsible": "",
+    "phone": ""
+  },
+  {
+    "row": 39,
+    "client": "Viva Dominicus",
+    "serial": "R1901429304",
+    "account": "S",
+    "location": "",
+    "responsible": "",
+    "phone": ""
+  },
+  {
+    "row": 40,
+    "client": "Viva heaven",
+    "serial": "R1895202468",
+    "account": "S",
+    "location": "",
+    "responsible": "",
+    "phone": ""
+  },
+  {
+    "row": 41,
+    "client": "Viva heaven",
+    "serial": "R1888527092",
+    "account": "S",
+    "location": "",
+    "responsible": "",
+    "phone": ""
+  },
+  {
+    "row": 42,
+    "client": "Viva Miches",
+    "serial": "R0101442198",
+    "account": "S",
+    "location": "",
+    "responsible": "",
+    "phone": ""
+  },
+  {
+    "row": 43,
+    "client": "Viva Miches",
+    "serial": "R1907019234",
+    "account": "S",
+    "location": "",
+    "responsible": "",
+    "phone": ""
+  },
+  {
+    "row": 44,
+    "client": "Viva Miches",
+    "serial": "R0094322153",
+    "account": "S",
+    "location": "",
+    "responsible": "",
+    "phone": ""
+  },
+  {
+    "row": 45,
+    "client": "Viva Tengerine",
+    "serial": "R1907993305",
+    "account": "S",
+    "location": "",
+    "responsible": "",
+    "phone": ""
+  },
+  {
+    "row": 46,
+    "client": "Viva Tengerine",
+    "serial": "R1907189940",
+    "account": "V",
+    "location": "TEATRO",
+    "responsible": "",
+    "phone": ""
+  },
+  {
+    "row": 47,
+    "client": "Viva V",
+    "serial": "R1907648377",
+    "account": "V",
+    "location": "TEATRO",
+    "responsible": "",
+    "phone": ""
+  },
+  {
+    "row": 48,
+    "client": "Viva V",
+    "serial": "R1908149591",
+    "account": "V",
+    "location": "HIT BAR",
+    "responsible": "",
+    "phone": ""
+  },
+  {
+    "row": 49,
+    "client": "Hotel Vista Sol",
+    "serial": "R0094750891",
+    "account": "R",
+    "location": "",
+    "responsible": "Jolvis Medina",
+    "phone": "829 587-1735"
+  },
+  {
+    "row": 50,
+    "client": "Hotel Vista Sol",
+    "serial": "R1888708862",
+    "account": "Q",
+    "location": "",
+    "responsible": "Jolvis Medina",
+    "phone": "829 587-1735"
+  },
+  {
+    "row": 51,
+    "client": "Hotel Vista Sol",
+    "serial": "R1901202665",
+    "account": "Q",
+    "location": "",
+    "responsible": "Jolvis Medina",
+    "phone": "829 587-1735"
+  },
+  {
+    "row": 52,
+    "client": "Sublime",
+    "serial": "R1906966290",
+    "account": "R",
+    "location": "BISTRO",
+    "responsible": "",
+    "phone": ""
+  },
+  {
+    "row": 53,
+    "client": "Sublime",
+    "serial": "R1895354095",
+    "account": "U",
+    "location": "PALAPA",
+    "responsible": "",
+    "phone": ""
+  },
+  {
+    "row": 54,
+    "client": "Ed Hayman",
+    "serial": "R1895246372",
+    "account": "T",
+    "location": "",
+    "responsible": "Kathy",
+    "phone": "809 513-6981"
+  },
+  {
+    "row": 55,
+    "client": "Ed Hayman",
+    "serial": "R1888723310",
+    "account": "T",
+    "location": "",
+    "responsible": "Kathy",
+    "phone": "809 513-6981"
+  },
+  {
+    "row": 56,
+    "client": "Our Republic",
+    "serial": "R0102931727",
+    "account": "Q",
+    "location": "",
+    "responsible": "Sandy",
+    "phone": "829 295-7430"
+  },
+  {
+    "row": 57,
+    "client": "Our Republic",
+    "serial": "R0102987473",
+    "account": "U",
+    "location": "",
+    "responsible": "Sandy",
+    "phone": "829 295-7430"
+  },
+  {
+    "row": 58,
+    "client": "STOCK",
+    "serial": "R0091790563",
+    "account": "T",
+    "location": "",
+    "responsible": "",
+    "phone": ""
+  },
+  {
+    "row": 59,
+    "client": "STOCK",
+    "serial": "R1904589006",
+    "account": "Q",
+    "location": "",
+    "responsible": "",
+    "phone": ""
+  },
+  {
+    "row": 60,
+    "client": "STOCK",
+    "serial": "R1907873509",
+    "account": "V",
+    "location": "",
+    "responsible": "",
+    "phone": ""
+  },
+  {
+    "row": 61,
+    "client": "STOCK",
+    "serial": "R1904589006",
+    "account": "Q",
+    "location": "",
+    "responsible": "",
+    "phone": ""
+  }
+]

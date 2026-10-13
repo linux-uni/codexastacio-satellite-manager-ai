@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS users (id BIGSERIAL PRIMARY KEY,email TEXT NOT NULL UNIQUE,password_hash TEXT NOT NULL,role TEXT NOT NULL DEFAULT 'admin' CHECK(role IN ('super_admin','admin','technician','billing')),created_at TIMESTAMPTZ NOT NULL DEFAULT now());
+CREATE TABLE IF NOT EXISTS chains (id BIGSERIAL PRIMARY KEY,name TEXT NOT NULL UNIQUE);
+CREATE TABLE IF NOT EXISTS clients (id BIGSERIAL PRIMARY KEY,name TEXT NOT NULL UNIQUE,chain_id BIGINT REFERENCES chains(id),kind TEXT NOT NULL DEFAULT 'hotel',notes TEXT,created_at TIMESTAMPTZ NOT NULL DEFAULT now());
+CREATE TABLE IF NOT EXISTS departments (id BIGSERIAL PRIMARY KEY,client_id BIGINT NOT NULL REFERENCES clients(id),name TEXT NOT NULL,leader TEXT,UNIQUE(client_id,name));
+CREATE TABLE IF NOT EXISTS contacts (id BIGSERIAL PRIMARY KEY,client_id BIGINT NOT NULL REFERENCES clients(id),department_id BIGINT REFERENCES departments(id),name TEXT NOT NULL,phone TEXT,position TEXT,UNIQUE(client_id,name,phone));
+CREATE TABLE IF NOT EXISTS receivers (id BIGSERIAL PRIMARY KEY,serial TEXT NOT NULL UNIQUE,account_code TEXT,client_id BIGINT REFERENCES clients(id),location TEXT,status TEXT NOT NULL DEFAULT 'installed' CHECK(status IN ('available','installed','reserved','maintenance','damaged','retired')),notes TEXT,created_at TIMESTAMPTZ NOT NULL DEFAULT now());
+CREATE TABLE IF NOT EXISTS receiver_movements (id BIGSERIAL PRIMARY KEY,receiver_id BIGINT NOT NULL REFERENCES receivers(id),from_client_id BIGINT REFERENCES clients(id),to_client_id BIGINT REFERENCES clients(id),from_status TEXT,to_status TEXT,actor_id BIGINT REFERENCES users(id),reason TEXT,created_at TIMESTAMPTZ NOT NULL DEFAULT now());
+CREATE TABLE IF NOT EXISTS import_rows (id BIGSERIAL PRIMARY KEY,source_name TEXT NOT NULL,source_row INT NOT NULL,raw JSONB NOT NULL,imported_at TIMESTAMPTZ NOT NULL DEFAULT now(),UNIQUE(source_name,source_row));
+CREATE TABLE IF NOT EXISTS import_issues (id BIGSERIAL PRIMARY KEY,source_name TEXT NOT NULL,source_row INT NOT NULL,issue TEXT NOT NULL,details TEXT,UNIQUE(source_name,source_row,issue));
+CREATE TABLE IF NOT EXISTS invoices (id BIGSERIAL PRIMARY KEY,client_id BIGINT NOT NULL REFERENCES clients(id),number TEXT UNIQUE,issue_date DATE,due_date DATE,currency TEXT NOT NULL DEFAULT 'USD',status TEXT NOT NULL DEFAULT 'draft',notes TEXT,created_at TIMESTAMPTZ NOT NULL DEFAULT now());
+CREATE TABLE IF NOT EXISTS invoice_items (id BIGSERIAL PRIMARY KEY,invoice_id BIGINT NOT NULL REFERENCES invoices(id) ON DELETE CASCADE,description TEXT NOT NULL,quantity NUMERIC(12,2) NOT NULL DEFAULT 1,unit_price NUMERIC(14,2) NOT NULL DEFAULT 0);
+CREATE INDEX IF NOT EXISTS idx_receivers_client ON receivers(client_id);
+CREATE INDEX IF NOT EXISTS idx_contacts_client ON contacts(client_id);
